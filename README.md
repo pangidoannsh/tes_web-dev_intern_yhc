@@ -23,6 +23,9 @@ izinkan saya perkenalkan diri sedikit, nama saya PANGIDOAN NUGROHO SYAHPUTRA HAR
 
 
 # Screenshot Hasil Pada Programm Pengolahan Data Mahasiswa
+## Penjelasan Tentnag Project ini
+project ini merupakan proejct pengolahan data mahasiswa yang dapat menampilkan, menambahkan, mengedit, dan menghapus data mahasiswa. data mahasiswa akan berelasi ke table prodi pada database dengan menggunakan leftJoin
+
 ## Tampilan Login
  ![Screenshot_5](https://user-images.githubusercontent.com/74215225/211141667-8fa3976c-1c16-4c64-92c1-3c38f0caad16.png)
 ### Tampilan Ketika Gagal Login
