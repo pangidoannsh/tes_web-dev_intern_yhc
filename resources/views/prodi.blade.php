@@ -20,18 +20,18 @@
         
         <div class="rounded shadow p-6 bg-white">
             <h3 class="font-semibold text-slate-600 text-2xl mb-6">Data Program Studi</h3>
-            <table class="table-auto w-full">
+            <table class="table-auto w-full table-data" id="example">
                 <thead>
-                    <tr>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">No</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">NAMA</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">FAKULTAS</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">ACTION</th>
+                    <tr class="bg-[#2F2C4D]">
+                        <th class="text-white font-medium py-2 border-r border-white">No</th>
+                        <th class="text-white font-medium py-2 border-r border-white">NAMA</th>
+                        <th class="text-white font-medium py-2 border-r border-white">FAKULTAS</th>
+                        <th class="text-white font-medium py-2 border-r border-white">ACTION</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach ($prodi as $data)
-                        <tr class="even:bg-sky-50">
+                        <tr class="even:bg-violet-50">
                             <td class="p-2 text-slate-600 text-center">{{$loop->iteration}}</td>
                             <td class="p-2 text-slate-600 capitalize">{{$data->nama}}</td>
                             <td class="p-2 text-slate-600 capitalize">{{$data->fakultas}}</td>

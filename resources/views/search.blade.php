@@ -9,11 +9,11 @@
                 <span class="font-normal text-slate-500">{nama_mahasiswa}</span>
             </div>
             <div class="relative mt-4">
-                <button class="absolute top-[50%] -translate-y-[50%] text-2xl text-slate-400 right-0 bg-sky-500 px-3 h-full rounded-r-lg">
+                <button class="absolute top-[50%] -translate-y-[50%] text-2xl text-slate-400 right-0 bg-[#2F2C4D] px-3 h-full rounded-r-lg">
                     <i class="fa fa-magnifying-glass text-white"></i>
                 </button>
-                <input type="text" id="input-search" class="pl-2 py-2 pr-16 border border-slate-400 focus:outline-none focus:border-sky-500 rounded-lg
-                focus:ring focus:ring-sky-200 w-full" name="search" value="{{request('search')}}">
+                <input type="text" id="input-search" class="pl-2 py-2 pr-16 border border-slate-400 focus:outline-none focus:border-violet-500 rounded-lg
+                focus:ring focus:ring-violet-200 w-full" name="search" value="{{request('search')}}">
             </div>
         </form>
     </div>

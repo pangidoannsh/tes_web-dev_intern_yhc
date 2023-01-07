@@ -42,20 +42,20 @@
             <h3 class="font-semibold text-slate-600 text-2xl mb-6">Data Mahasiwa</h3>
             <table class="table-auto w-full table-data" id="example">
                 <thead>
-                    <tr>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">No</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">NIM</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">NAMA</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">KELAS</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">PRODI</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">SEMESTER</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">ANGKATAN</th>
-                        <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">ACTION</th>
+                    <tr class="bg-[#2F2C4D]">
+                        <th class=" text-white font-medium py-2 border-r border-white">No</th>
+                        <th class=" text-white font-medium py-2 border-r border-white">NIM</th>
+                        <th class=" text-white font-medium py-2 border-r border-white">NAMA</th>
+                        <th class=" text-white font-medium py-2 border-r border-white">KELAS</th>
+                        <th class=" text-white font-medium py-2 border-r border-white">PRODI</th>
+                        <th class=" text-white font-medium py-2 border-r border-white">SEMESTER</th>
+                        <th class=" text-white font-medium py-2 border-r border-white">ANGKATAN</th>
+                        <th class=" text-white font-medium py-2 border-r border-white">ACTION</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach ($mahasiswa as $data)
-                        <tr class="even:bg-sky-50">
+                        <tr class="even:bg-violet-50">
                             <td class="p-2 text-slate-600 text-center">{{$loop->iteration}}</td>
                             <td class="p-2 text-slate-600">{{$data->nim}}</td>
                             <td class="p-2 text-slate-600 capitalize flex items-center gap-2">
