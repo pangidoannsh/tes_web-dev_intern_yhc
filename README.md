@@ -1,10 +1,10 @@
-### Data Diri Saya
+# Data Diri Saya
 Nama : Pangidoan Nugroho Syahputra Harahap
 Asal : Universitas Riau, Riau
 
 izinkan saya perkenalkan diri sedikit, nama saya PANGIDOAN NUGROHO SYAHPUTRA HARAHAP, biasa dipanggil "Edo" dari universitas Riau program studi Teknik Informatika. saat ini saya berada pada Semester 6, dan saya menguasai beberapa bahasa pemrogramman atau framework seperti Laravel, React Js, Node Js, Typescript, Javascript, Tailwind, MySQL, Bootstra, dan sebagainya. 
 
-### Langkah-langkah penginstallan program ini
+# Langkah-langkah penginstallan program ini
 1. pastikan sudah menginstall composer
 2. pastikan sudah menginstall laravel
 4. membuat folder untuk penempatan projek ini
@@ -18,11 +18,11 @@ izinkan saya perkenalkan diri sedikit, nama saya PANGIDOAN NUGROHO SYAHPUTRA HAR
 11. import file database yang ada pada project github ini
 12. php artisan serve
 
-### Screenshot Hasil Pada Programm Pengolahan Data Mahasiswa
+# Screenshot Hasil Pada Programm Pengolahan Data Mahasiswa
 ## Tampilan Login
-# Tampilan Ketika Gagal Login
+### Tampilan Ketika Gagal Login
 ## Tampilan Register
 ## Tampilan Utama (Dashboard) beserta Form Tambah Data Mahasiswa
 ## Tampilan Detail Mahasiswa beserta fitur Edit dan Upload Foto Mahasiswa
 ## Tampilan Halaman Search
-# Ketika Mencari Mahasiswa
+### Ketika Mencari Mahasiswa
