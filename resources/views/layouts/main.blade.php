@@ -28,6 +28,10 @@
         </div>
     </div>
 
-    {{-- @include('layouts.script') --}}
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
 </body>
 </html>

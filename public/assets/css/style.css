@@ -15,7 +15,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2C4D45;
+    background: #2D2E4C;
     border-radius: 2px;
 }
 
@@ -63,7 +63,7 @@ body {
     overflow-y: scroll;
 }
 
-.phoro-profile {
+.photo-profile {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;

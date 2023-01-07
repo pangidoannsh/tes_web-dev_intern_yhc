@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\ProdiController;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,9 +19,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/login', [UserController::class, 'index'])->name('login');
 Route::post('/login', [UserController::class, 'login']);
+Route::get('/register', [UserController::class, 'register']);
+Route::post('/register', [UserController::class, 'store']);
 
 Route::group(['middleware' => ['auth']], function () {
+    Route::post('/logout', [UserController::class, 'logout']);
     Route::get('/', [MahasiswaController::class, 'index']);
+    Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
     Route::get('/mahasiswa/{nim}', [MahasiswaController::class, 'show']);
     Route::post('/mahasiswa', [MahasiswaController::class, 'store']);
     Route::post('/mahasiswa/{id}/update', [MahasiswaController::class, 'update']);
@@ -28,4 +33,6 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::get('/prodi', [ProdiController::class, 'index']);
     Route::post('/prodi', [ProdiController::class, 'store']);
+
+    Route::get('/search', [SearchController::class, 'index']);
 });

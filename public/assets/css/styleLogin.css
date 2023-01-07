@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+.btn-register {
+    color: #2D2E4C;
+}
+
 .btn-login {
     background-color: #2D2E4C;
     color: white;

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <div class="p-4">
+    <div class="p-4 ">
         <form action="/mahasiswa" method="post">
             @csrf
             <div class="rounded shadow p-6 bg-white mb-6">
@@ -40,7 +40,7 @@
         
         <div class="rounded shadow p-6 bg-white">
             <h3 class="font-semibold text-slate-600 text-2xl mb-6">Data Mahasiwa</h3>
-            <table class="table-auto w-full">
+            <table class="table-auto w-full table-data" id="example">
                 <thead>
                     <tr>
                         <th class="bg-sky-600 text-white font-semibold py-2 border-r border-white">No</th>
@@ -58,7 +58,11 @@
                         <tr class="even:bg-sky-50">
                             <td class="p-2 text-slate-600 text-center">{{$loop->iteration}}</td>
                             <td class="p-2 text-slate-600">{{$data->nim}}</td>
-                            <td class="p-2 text-slate-600 capitalize">{{$data->nama}}</td>
+                            <td class="p-2 text-slate-600 capitalize flex items-center gap-2">
+                                <div class="w-6 h-6 photo-profile rounded-full" 
+                                style="background-image: url('{{asset('img/photo-profile/'.($data->foto? $data->foto:'default.jpg'))}}')"></div>
+                                <span>{{$data->nama}}</span>
+                            </td>
                             <td class="p-2 text-slate-600 text-center uppercase">{{$data->kelas}}</td>
                             <td class="p-2 text-slate-600 text-center capitalize">{{$data->prodi}}</td>
                             <td class="p-2 text-slate-600 text-center">{{$data->semester}}</td>

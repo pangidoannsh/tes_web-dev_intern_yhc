@@ -74,6 +74,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="d-flex justify-content-end mt-lg-0 mt-3">
                                         <div class="d-grid d-lg-block">
+                                        <a href="/register" class="btn btn-register rounded-1 fw-bold px-4 py-2">Register</a>
                                             <button class="btn btn-login rounded-1 fw-bold px-4 py-2">LOGIN</button>
                                         </div>
                                     </div>

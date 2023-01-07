@@ -23,6 +23,7 @@ class MahasiswaController extends Controller
                 'mahasiswa.angkatan',
                 'mahasiswa.semester',
                 'mahasiswa.kelas',
+                'mahasiswa.foto',
                 'prodi.nama as prodi',
             )
             ->get();
@@ -80,7 +81,8 @@ class MahasiswaController extends Controller
                 'mahasiswa.angkatan',
                 'mahasiswa.semester',
                 'mahasiswa.kelas',
-                'mahasiswa.nama as prodi_id',
+                'mahasiswa.foto',
+                'prodi.id as prodi_id',
                 'prodi.nama as prodi_name',
             )->first();
 
@@ -102,6 +104,21 @@ class MahasiswaController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $request->validate([
+            "nim" => "required",
+            "nama" => "required",
+            "kelas" => "required",
+            "angkatan" => "required",
+            "semester" => "required",
+            "prodi" => "required",
+            "photo" => "image|file"
+        ]);
+        $file = $request->file('photo');
+        $nameFile = null;
+        if ($request->file('photo')) {
+            $nameFile = date("YmdHis") . $file->getClientOriginalExtension();
+            $file->move('img/photo-profile', $nameFile);
+        }
         Mahasiswa::where('id', $id)->update([
             'nim' => $request->nim,
             'nama' => $request->nama,
@@ -109,8 +126,9 @@ class MahasiswaController extends Controller
             'angkatan' => $request->angkatan,
             'semester' => $request->semester,
             'prodi' => $request->prodi,
+            "foto" => $nameFile
         ]);
-        return redirect('/');
+        return view('/mahasiswa');
     }
 
     /**
