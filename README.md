@@ -33,14 +33,16 @@ project ini merupakan proejct pengolahan data mahasiswa yang dapat menampilkan, 
 ## Tampilan Register
  ![Screenshot_9](https://user-images.githubusercontent.com/74215225/211141744-17e897e0-80b2-49c0-93b8-5ef362c20eae.png)
 ## Tampilan Utama (Dashboard) beserta Form Tambah Data Mahasiswa
- ![Screenshot_8](https://user-images.githubusercontent.com/74215225/211141775-a70f3ef3-50ad-467e-9029-886e3b548b14.png)
+ ![Screenshot_1](https://user-images.githubusercontent.com/74215225/211158214-92974ac9-cda0-4f7a-8ad0-1982eea4adeb.png)
 ## Tambah Data Mahasiswa dengan penginputan prodi menggunakan dropdown, dan akan beralsi ke table prodi
- ![Screenshot_13](https://user-images.githubusercontent.com/74215225/211141944-37a4ff36-93f2-42d2-ba4e-e2f0c7a3186f.png)
+ ![Screenshot_2](https://user-images.githubusercontent.com/74215225/211158263-0a16a2f6-0090-4419-85b2-def509f68e4b.png)
 ## Tampilan Detail Mahasiswa beserta fitur Edit dan Upload Foto Mahasiswa
- ![Screenshot_10](https://user-images.githubusercontent.com/74215225/211141818-04d03a93-9f7a-450d-b99d-f30a9f2af380.png)
+ ![Screenshot_7](https://user-images.githubusercontent.com/74215225/211158301-1cedd866-71ef-4e57-87ef-a4880436c31d.png)
 ## Menambahkan atau mengubah foto dengan preview 
- ![Screenshot_14](https://user-images.githubusercontent.com/74215225/211141987-be5d0a46-1ab9-462c-bfd8-3a7ca60ed5af.png)
+ ![Screenshot_8](https://user-images.githubusercontent.com/74215225/211158308-d96689be-61b1-46f2-98ac-953152ddefdc.png)
+ ### Hasil Menambah Foto
+ ![Screenshot_9](https://user-images.githubusercontent.com/74215225/211158314-7d8f9570-13c7-44ae-8749-0e609889204a.png)
 ## Tampilan Halaman Search
- ![Screenshot_11](https://user-images.githubusercontent.com/74215225/211141868-bf38e6ab-381c-4999-8de4-eac04258acc2.png)
+ ![Screenshot_4](https://user-images.githubusercontent.com/74215225/211158360-4ccdd634-4360-45b1-bae5-b51a36df8d75.png)
 ### Ketika Mencari Mahasiswa
- ![Screenshot_12](https://user-images.githubusercontent.com/74215225/211141857-0fee6c38-f896-48ab-8b9d-2a156564a2c6.png)
+ ![Screenshot_5](https://user-images.githubusercontent.com/74215225/211158371-811d09c4-abac-481b-880b-877d674e3443.png)
