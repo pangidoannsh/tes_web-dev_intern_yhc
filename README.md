@@ -1,6 +1,6 @@
 # Data Diri Saya
-Nama : Pangidoan Nugroho Syahputra Harahap
-Asal : Universitas Riau, Riau
+ Nama : Pangidoan Nugroho Syahputra Harahap
+ Asal : Universitas Riau, Riau
 
 izinkan saya perkenalkan diri sedikit, nama saya PANGIDOAN NUGROHO SYAHPUTRA HARAHAP, biasa dipanggil "Edo" dari universitas Riau program studi Teknik Informatika. saat ini saya berada pada Semester 6, dan saya menguasai beberapa bahasa pemrogramman atau framework seperti Laravel, React Js, Node Js, Typescript, Javascript, Tailwind, MySQL, Bootstra, dan sebagainya. 
 
@@ -19,7 +19,7 @@ izinkan saya perkenalkan diri sedikit, nama saya PANGIDOAN NUGROHO SYAHPUTRA HAR
 10. membuat database dengan nama "portal"
 11. import file database yang ada pada project github ini
 12. php artisan serve
- ![Screenshot_2](https://user-images.githubusercontent.com/74215225/211141245-cbf7e5a6-cf74-42b9-9dd6-1160b972d003.png)
+  ![Screenshot_2](https://user-images.githubusercontent.com/74215225/211141245-cbf7e5a6-cf74-42b9-9dd6-1160b972d003.png)
 
 
 # Screenshot Hasil Pada Programm Pengolahan Data Mahasiswa
