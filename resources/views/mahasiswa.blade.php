@@ -7,27 +7,27 @@
                 <div class="grid grid-cols-11 gap-4 items-end justify-center">
                     <div class="flex flex-col gap-2 col-span-2">
                         <label for="nim">NIM</label>
-                        <input type="text" id="nim" name="nim" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
+                        <input required type="text" id="nim" name="nim" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
                     </div>
                     <div class="flex flex-col gap-2 col-span-3">
                         <label for="nama">Nama</label>
-                        <input type="text" id="nama" name="nama" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
+                        <input required type="text" id="nama" name="nama" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
                     </div>
                     <div class="flex flex-col gap-2">
                         <label for="kelas">Kelas</label>
-                        <input type="text" id="kelas" name="kelas" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
+                        <input required type="text" id="kelas" name="kelas" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
                     </div>
                     <div class="flex flex-col gap-2">
                         <label for="semester">Semester</label>
-                        <input type="number" id="semester" name="semester" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
+                        <input required type="number" id="semester" name="semester" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
                     </div>
                     <div class="flex flex-col gap-2">
                         <label for="angkatan">Angkatan</label>
-                        <input type="number" id="angkatan" name="angkatan" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
+                        <input required type="number" id="angkatan" name="angkatan" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
                     </div>
                     <div class="flex flex-col gap-2 col-span-2">
                         <label for="nim">Prodi</label>
-                        <select name="prodi" id="prodi" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
+                        <select  name="prodi" id="prodi" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
                             @foreach ($prodi as $data)
                                 <option value="{{$data->id}}">{{$data->nama}}</option>
                             @endforeach

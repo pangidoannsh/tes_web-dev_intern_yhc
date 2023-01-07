@@ -7,11 +7,11 @@
                 <div class="grid grid-cols-7 gap-4 items-end justify-center">
                     <div class="flex flex-col gap-2 col-span-3">
                         <label for="nama">Nama</label>
-                        <input type="text" id="nama" name="nama" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
+                        <input required type="text" id="nama" name="nama" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
                     </div>
                     <div class="flex flex-col gap-2 col-span-3">
                         <label for="fakultas">Fakultas</label>
-                        <input type="text" id="fakultas" name="fakultas" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
+                        <input required type="text" id="fakultas" name="fakultas" class="focus:outline-none border border-slate-500 px-2 py-1 focus:border-sky-500 focus:ring focus:ring-sky-200 rounded">
                     </div>
                     <button class="bg-green-600 px-2 py-1 text-white rounded active:ring active:ring-green-200 ">Tambah</button>
                 </div>
