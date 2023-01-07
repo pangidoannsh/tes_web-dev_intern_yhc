@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Administrasi Mahasiswa | Login</title>
+    <title>Pengolahan Data Mahasiswa | Login</title>
     <!-- Favicon -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -24,7 +24,7 @@
                         </div>
                         <div class="login-body py-lg-5">
                             <div class="mb-5">
-                                    <h1 class="title mx-0 px-0">Administrasi Mahasiswa</h1>
+                                    <h1 class="title mx-0 px-0">Pengolahan Data Mahasiswa</h1>
                                     <p class="mx-0 px-0 mt-3" style="color: rgba(0,0,0,0.5);">Silahkan Login Sebagai
                                         Admin
                                     </p>
