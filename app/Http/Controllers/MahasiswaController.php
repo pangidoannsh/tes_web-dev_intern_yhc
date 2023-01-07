@@ -128,7 +128,7 @@ class MahasiswaController extends Controller
             'prodi' => $request->prodi,
             "foto" => $nameFile
         ]);
-        return view('/mahasiswa');
+        return redirect('/mahasiswa');
     }
 
     /**
