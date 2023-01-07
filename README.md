@@ -34,6 +34,8 @@ project ini merupakan proejct pengolahan data mahasiswa yang dapat menampilkan, 
  ![Screenshot_9](https://user-images.githubusercontent.com/74215225/211141744-17e897e0-80b2-49c0-93b8-5ef362c20eae.png)
 ## Tampilan Utama (Dashboard) beserta Form Tambah Data Mahasiswa
  ![Screenshot_1](https://user-images.githubusercontent.com/74215225/211158214-92974ac9-cda0-4f7a-8ad0-1982eea4adeb.png)
+## Fitur mengurutkan dari berbagai aspek seperti nama, nim, atau pun prodi
+ ![Screenshot_6](https://user-images.githubusercontent.com/74215225/211158559-5db9536d-ed70-4717-b81b-4389765bd689.png)
 ## Tambah Data Mahasiswa dengan penginputan prodi menggunakan dropdown, dan akan beralsi ke table prodi
  ![Screenshot_2](https://user-images.githubusercontent.com/74215225/211158263-0a16a2f6-0090-4419-85b2-def509f68e4b.png)
 ## Tampilan Detail Mahasiswa beserta fitur Edit dan Upload Foto Mahasiswa
